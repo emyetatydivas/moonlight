@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Moonlight</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="https://images.emojiterra.com/google/android-12l/512px/1f3ae.png">
+</head>
+<body>
+    <main class="login">
+        <form action="php.php" method="post">
+            <h1 class="login">L O G I N</h1>
+            <span style="margin-top: 1vw; margin-bottom: 1vw;">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </span>
+            <span style="margin-bottom: 1vw;">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha">
+            </span>
+            <span style="margin-top: 0.5vw; margin-bottom: 1vw;">
+                <input type="radio" name="jogo" id="sh" value="sh" checked>
+                <label for="sh">Survival Horror</label> 
+                <input type="radio" name="jogo" id="sim" value="sim">
+                <label for="sim">Simulação</label> 
+                <input type="radio" name="jogo" id="pz" value="pz">
+                <label for="pz">Puzzle</label> 
+            </span>
+            <button type="submit" class="login"> Login </button>
+        </form>
+    </main>
+</body>
+</html>

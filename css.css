@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root { 
+    --bckgrnd: #00000079;
+    --grey: #545454;
+}
+
+body {
+    background-color: var(--bckgrnd);
+    background-image: url(nightsky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #0000007c;
+    height: 10vh;
+    display: flex;
+    justify-content: right;
+}
+span.header {
+    text-align: center;
+    min-height: 10vh;
+    min-width: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid black 2px;
+}
+a {
+    text-decoration: none;
+}
+a.nav {
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    min-height: 9vh;
+    width: 100%;
+    text-align: center;
+    min-height: 10vh;
+    max-width: 22vw;
+    background-color: var(--grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.nav:last-child{
+    border-left: 2px solid var(--bckgrnd);
+}
+a.nav:hover {
+    background-color: var(--bckgrnd);
+    font-size: 28px;
+}
+
+*::selection {
+    background-color: #888888;
+}
+.tela {
+    width: 50vw;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tela2 {
+    width: 33vw;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+}
+ #links {
+    min-width: 20vh;
+    min-height: 20vh;
+    border-radius: 10px;
+    outline: none;
+    border: 2px black solid;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    filter: brightness(0.75);
+    font-size: 0;
+}
+#links:hover {
+    filter: brightness(0.95);
+}
+.steam {
+    background-image: url(https://store.fastly.steamstatic.com/public/shared/images/responsive/steam_share_image.jpg);
+}
+.epic {
+    background-image: url(https://i0.wp.com/assets.b9.com.br/wp-content/uploads/2021/04/epicb9.jpg?fit=1280%2C720&ssl=1);
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.text {
+    padding: 5vh 3vw;
+    height: 52vh;
+    width: 40vw;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text2 {
+    width: 30vw;
+    padding: 5vh 2vw;
+    height: 52vh;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#um {
+    background-color: #180000d5;
+}
+#dois {
+    background-color: #000418d5;
+}
+
+
+#bio1 {
+    background-image: url(https://www.residentevildatabase.com/wp-content/uploads/2018/06/re2-remake-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    filter: brightness(0.9);
+}
+#bio2 {
+    background-image: url(https://t2.tudocdn.net/401102?w=1920&h=1440);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    filter: brightness(0.9);
+}
+#bio3 {
+    background-image: url(https://www.slantmagazine.com/wp-content/uploads/2017/12/gorogoa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.9);
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35vw;
+}
+.jogo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 17px;
+    height: 27vh;
+    width: 44vw;
+    border-radius: 20px;
+    background-color: black;
+}
+.jogo > img {
+    height: 24vh;
+    border-radius: 10px;
+
+}
+.escrita {
+    display: flex;
+    flex-direction: column;
+}
+.escrita > p {
+    font-size: 13px;
+    padding: 4px 7px;
+}
+.escrita h3 {
+    padding: 4px 4px 4px 16px;
+}
+
+
+#sh {
+    background-color: #ff3131;
+}
+#sim {
+    background-color: #00bf63;
+}
+#pz {
+    background-color: #004aad;
+}
+#sh:hover {
+    background-color: #b10000;
+}
+#sim:hover {
+    background-color: #007c40;
+}
+#pz:hover {
+    background-color: #002c66;
+}
+
+
+button.login {
+    margin-top: 1vh;
+    height: 5vh;
+    width: 5vw;
+    border-radius: 10px;
+    color: #141414;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button.login:hover {
+    background-color: #121212;
+    color: white;
+}
+main.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: solid white 2px;
+    height: 45vh;
+    width: 35vw;
+    justify-content: space-evenly;
+    padding: 2vw 3vw;
+    background-color: var(--bckgrnd);
+}
+label {
+    padding-right: 2vh;
+}
+input {
+    color: #121212;
+    padding: 1px;
+}
+h1.login {
+    text-shadow: var(--bckgrnd) 2px 2px, rgba(255, 255, 255, 0.534) 1px 1px 1vh;
+}
